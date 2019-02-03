@@ -1,0 +1,38 @@
+A szakmai gyakorlati hely bemutatása 
+
+A szakmai gyakorlatomat a XSAW NETWORK Informatikai Kereskedelmi és Szolgáltató Kft.-nél (3399 Andornaktálya, Dózsa György utca 3.) végeztem. A Kft. az egyedi informatikai rendszerek tervezésén, fejlesztésén, támogatásán kívül vállalati és egyéni hosting szolgáltatásokkal foglalkozik; a webfejlesztés területén a legegyszerûbb bemutatkozó oldalaktól a forgalmas híroldalakig. A mobilalkalmazás fejlesztés elsõsorban iOS-platformra történik. Fõ profiljukba tartozik az adatbázisrendszerek tervezése, kivitelezése és karbantartása. A tevékenységi paletta részét képezi az IT-tanácsadás, elsõsorban a biztonság és a jogi tanácsadás a jellemzõ. Ezen kívül még a különbözõ informatikai tanfolyamok szervezésével és lebonyolításával is foglalkozik. A cél az informatika területén a minél nagyobb lefedettség biztosítása. Itt választhattam a számtalan lehetõség közül, így egy olyan területtel ismerkedhettem meg közelebbrõl, amellyel a késõbbiekben is foglalkozni szeretnék.
+
+
+A szakmai gyakorlat ismertetése 
+
+A gyakorlatot az alapok ismétlésével, illetve megismerésével kezdtem. Mivel a verziókövetés a Git verziókövetõ rendszerrel történt, így elsõként annak magabiztos elsajátítása volt a feladat. A késõbbi feladatok alapja a Bootstrap3 keretrendszer, ezért annak alapjaival kellett megismerkednem, majd felelevenítenem a HTML5- és CSS3-ismereteimet. A következõ lépés a Photoshop-ismereteim bõvítése volt. Ezek után kapcsolódhattam be egy aktív projektbe, ahol lehetõséget kaptam egy reszponzív weboldal Phototshop-design alapján történõ elkészítésére, majd a megrendelõ kéréseinek megfelelõen módosítottam a felhasználói felületet. Az utolsó feladatom során részt vehettem a tervezésben is. A feladatokat részletesen a következõ fejezetekben ismertetem. 
+
+
+
+A feladat leírása 
+
+A feladat egy csomag- és személyszállítással foglalkozó cég weboldalának kialakítása volt. Az oldalnak a logóhoz és az gépjármûparkhoz kellett igazodnia. Elvárás volt egy logó és szlogen megjelenítése, valamint a csapat, a sofõrök és a gépjármûvek bemutatása, egyszerû táblázatok a tarifákról, illetve a kapcsolati rész kialakítása.  
+
+
+A feladat megvalósítása 
+
+A feladat megvalósításához a korábban részletezett technológiákat használtam fel. Elsõ lépés az elvárásoknak megfelelõ arculat kialakítása volt, majd a megvalósítás következett.   
+
+
+Navigáció 
+A navigációs sáv a logó és a szlogen alatt kapott helyett. Görgetés hatására, amikor eléri a böngészõ felsõ szélét, fixen meg kell jelennie. Ezt egy egyszerû szkript irányítja.   
+A Bootstap3 keretrendszer sajátosságait kihasználva, a navigációs sávot az elõzõ feladathoz hasonlóan alakítottam ki. Az egyéni jellemzõket CSS segítségével állítottam be. Bizonyos méret alatt automatikusan megjelenik egy „hamburger menü”, vagyis vízszintesen nem lesz látható a navigáció, csak ha egy ikonra kattintunk. Az oldal esetében ennek a speciális menünek 1200 px-nél kisebb képernyõméreten már meg kell jelennie, így ezt media screen használatával értem el.   
+
+A csapat bemutatása és a szolgáltatások 
+Mind a két egységnél container-be helyeztem el az elemeket, majd soronként beállítottam a pozícióikat, végül CSS-ben a megjelenítés stílusát is kialakítottam.   
+
+Sofõrök 
+Ebben az esetben az Owl carousel 2 jQuery bõvítményt használtam, mert igény szerint módosítható, kiválóan alkalmazható a reszponzív weboldalaknál, valamint a régebbi böngészõk is támogatják.  
+Az Áraink táblázatai A különbözõ méretû táblázatok kialakítása a table-responsive osztály gyakorlati alkalmazására adott lehetõséget. Segítségével könnyedén tudtam kialakítani a táblázatokat úgy, hogy minden platformon egyértelmûek maradjanak, vagyis a kisebb eszközökön vízszintesen gördíthetõek.   
+
+Kapcsolat 
+Két egység került kialakításra:  
+1. térkép és különféle információk, kapcsolatfelvételi lehetõségek;
+2. a közvetlen kapcsolatfelvételre szolgáló ûrlap.
+
+
